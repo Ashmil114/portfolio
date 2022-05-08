@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#212529" />
+    <title>Ash Official</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/profile.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body
+    class="bg-dark"
+    data-bs-spy="scroll"
+    data-bs-target=".navbar"
+    data-bs-offset="60"
+  >
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-3">
+      <div class="container">
+        <a class="navbar-brand text-warning fs-4" href="#">Ash Official</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photographs">Photographs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#books">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home-section p-5" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md text-center">
+            <img
+              src="./assets/images/profile.jpg"
+              alt=""
+              class="img-fluid rounded-circle w-80 img-thumbnail profile-img"
+            />
+          </div>
+          <div
+            class="col-md text-light text-center g-5 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1>Hello, I'm <span class="text-warning">Ashmil</span></h1>
+            <p class="lead">
+              I'm a Writer. Please have a seat, scroll down,and I'll get you a
+              Coffee !
+            </p>
+            <div>
+              <a
+                href="https://www.instagram.com/_a___s___h/"
+                class="text-warning mx-2 fs-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/chikku.k.982"
+                class="text-warning mx-2 fs-3"
+                ><i class="fab fa-facebook"></i></a
+              ><!--<a href="#" class="text-warning mx-2 fs-3"
+                        ><i class="fab fa-linkedin"></i
+                     ></a>
+                     <a
+                        href="https://pin.it/65vO4yH"
+                        class="text-warning mx-2 fs-3"
+                        ><i class="fab fa-pinterest"></i
+                     ></a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- photographs section -->
+    <section id="photographs" class="text-white mb-4 py-4">
+      <div class="container">
+        <h1 class="text-center">Photographs</h1>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 g-5">
+            <img
+              src="./assets/images/photographs/photo0.jpg"
+              class="img-fluid photograph-image"
+            />
+          </div>
+          <div class="col-md-6 col-lg-3 g-5">
+            <img
+              src="./assets/images/photographs/photo1.jpg"
+              class="img-fluid photograph-image"
+            />
+          </div>
+          <div class="col-md-6 col-lg-3 g-5">
+            <img
+              src="./assets/images/photographs/photo2.jpg"
+              class="img-fluid photograph-image"
+            />
+          </div>
+          <div class="col-md-6 col-lg-3 g-5">
+            <img
+              src="./assets/images/photographs/photo3.jpg"
+              class="img-fluid photograph-image"
+            />
+          </div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <a href="#" class="text-warning py-3 h5 text-decoration-none"
+            >See more...</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Books section -->
+    <section id="books" class="bg-black-30 p-5">
+      <div class="container">
+        <h1 class="text-center text-white">Books</h1>
+        <div class="row">
+          <div class="col-md my-5">
+            <h3 class="text-center text-light">
+              Didn't published any books yet...
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h1 class="text-center text-white">Contact Me!</h1>
+        <form
+          class="row g-3 text-white"
+          autocomplete="off"
+          name="google-sheet"
+          id="submit-form"
+          action=""
+        >
+          <div class="col-md-6">
+            <label for="first-name" class="form-label">First Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="first-name"
+              name="first_name"
+              placeholder="your first name..."
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="second-name" class="form-label">Second Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="second-name"
+              name="second_name"
+              placeholder="your second name..."
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="enter your email..."
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              name="Number"
+              placeholder="enter your phone..."
+              required
+            />
+          </div>
+          <div>
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              placeholder="type some messages..."
+              id="message"
+              name="Message"
+              style="height: 100px"
+              required
+            ></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-warning w-50 rounded-3">
+              Sign in
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer section-->
+    <footer class="bg-black py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md text-center text-light">
+            <p class="fs-5">
+              &copy; 2022 <span class="fw-bold">Ash Official</span>
+            </p>
+            <p>
+              Website designed by
+              <a
+                href="https://www.instagram.com/_a___s___h/"
+                class="text-warning fw-bold"
+                >Ash</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute end-0 bottom-0 p-5">
+        <a href="#" class="text-warning fs-2"
+          ><i class="fa fa-arrow-circle-up"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script>
+      $("#submit-form").submit((e) => {
+        e.preventDefault();
+        $.ajax({
+          url: "https://script.google.com/macros/s/AKfycbwq2d3PvrzqedHUi1MHcBzKcNcWT2CMJw8aph1Ho45uMUJcbz-o4yAopMPNtP-0ehpF/exec",
+          data: $("#submit-form").serialize(),
+          method: "post",
+          success: function (response) {
+            alert("Form submitted successfully");
+            window.location.reload();
+            //window.location.href="https://google.com"
+          },
+          error: function (err) {
+            alert("Something Error");
+          },
+        });
+      });
+    </script>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/font-awesome.min.js"></script>
+  </body>
+</html>

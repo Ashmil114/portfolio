@@ -1,0 +1,38 @@
+body {
+   position: relative;
+}
+
+nav {
+   background: rgba(0, 0, 0, 0.5);
+}
+.home-section {
+   background: linear-gradient(transparent, var(--bs-dark)),
+      url("../images/banner.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section::before {
+   content: "";
+   display: block;
+   height: 60px;
+}
+
+.profile-img {
+   max-width: 80%;
+   height: auto;
+}
+
+.photograph-image {
+   border-radius: 8px;
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+}
+
+.photograph-image:hover {
+   transform: scale(1.03);
+}
+
+.bg-black-30 {
+   background-color: rgba(0, 0, 0, 0.3);
+}
